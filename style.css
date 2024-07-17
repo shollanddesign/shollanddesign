@@ -209,7 +209,8 @@ a:active {
     margin-top: 25px;
     margin-bottom: 25px;
     flex-wrap: wrap;
-   /* overflow-x: auto; */
+     align-items: center;
+    justify-content: center;
     margin: 10px;
   }
 
@@ -226,6 +227,7 @@ a:active {
     display: flex;
     flex-direction: column;
     height: auto;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     margin: 10px;
@@ -269,11 +271,9 @@ a:active {
 
 
 .flex-item2 {
-    justify-content: center;
     text-align: center;
-    align-items: center;
     max-height: 400px;
-    max-width: 300px;
+    max-width: 200px;
   }
 
 
@@ -334,6 +334,8 @@ a:active {
   text-align: center;
   color: white;
   max-height: 50px;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -409,7 +411,7 @@ a:active {
  }
     
 .flex-container2 img {
-  max-width: 250px;
+  max-width: 200px;
   height: auto;
 }
 
@@ -525,6 +527,7 @@ footer {
   padding-left: 15%;
   padding-right: 15%;
   flex-direction: column;
+  max-height: 50%;
 }
 
 .spotlight-img1 img {
@@ -535,7 +538,7 @@ footer {
 
 .spotlight-img1 video {
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
 }
 
 .spotlight-process-photos {
@@ -544,13 +547,12 @@ footer {
   flex-wrap: nowrap;
   height: auto;
   max-width: 100%;
-  height: auto;
   padding-top: 10px;
 }
 
 .spotlight-process-photos img {
   max-width: 50%;
-  height: auto;
+  max-height: 100%;
 }
 
 
@@ -605,6 +607,11 @@ footer {
   max-height: 400px;
   min-height: 0%;
   min-width: 0%;
+}
+
+
+.flex-item2 img {
+  max-width: 150px;
 }
 
 .flex-container4 {
